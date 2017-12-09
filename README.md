@@ -4,7 +4,9 @@ This is a bash script that scans the filesystem for any files in the user direct
 EASY METHOD
 
 DOWNLOAD: wget -O ~/install.sh https://raw.githubusercontent.com/JonathanAlbarran/ChefdScript/master/install.sh
+
 SET EXECUTABLE PERMISSIONS: chmod +x install.sh
+
 RUN: ./install.sh
 
 This will install the scripts and run the bash script that scans for large files.
