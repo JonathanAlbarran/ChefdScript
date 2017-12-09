@@ -1,13 +1,24 @@
 # ChefdScript
 This is a bash script that scans the filesystem for any files in the user directories (/home or /Users) 10MB or greater and generates a CSV file  called 'output.csv' with the following fields: filename, file path, file size, modified date.
 
-Copy scripts to your home directory, confirm they have correct permissions to run.
+EASY METHOD
 
-If they do not, to add executable permissions use:
-"chmod +x script.sh"
-"chmod +x addtostartup.sh"
+DOWNLOAD: wget -O ~/install.sh https://raw.githubusercontent.com/JonathanAlbarran/ChefdScript/master/install.sh
+SET EXECUTABLE PERMISSIONS: chmod +x install.sh
+RUN: ./install.sh
+
+This will install the scripts and run the bash script that scans for large files.
+
+
+OTHER METHOD
+Copy script.sh and addtostartup.sh scripts to your home directory, confirm they have correct permissions to run.
+If they do not, add executable permissions.
+To search for files run script.sh
+To add script to startup run addtostartup.sh
+
 
 References Used:
+
 https://www.cyberciti.biz/faq/find-large-files-linux/
 
 https://stackoverflow.com/questions/27099071/awk-extracting-file-name-from-full-path
