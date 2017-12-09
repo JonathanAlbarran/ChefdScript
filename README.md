@@ -12,7 +12,10 @@ RUN: ./install.sh
 This will install the scripts and run the bash script that scans for large files.
 
 
+
+
 OTHER METHOD
+
 Copy script.sh and addtostartup.sh scripts to your home directory, confirm they have correct permissions to run.
 If they do not, add executable permissions.
 To search for files run script.sh
