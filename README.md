@@ -9,6 +9,9 @@ If they do not, to add executable permissions use:
 
 References Used:
 https://www.cyberciti.biz/faq/find-large-files-linux/
+
 https://stackoverflow.com/questions/27099071/awk-extracting-file-name-from-full-path
+
 https://www.unix.com/unix-for-dummies-questions-and-answers/68844-generate-csv-file-using-awk-script.html
+
 https://stackoverflow.com/questions/8579330/appending-to-crontab-with-a-shell-script-on-ubuntu/16068840#16068840
